@@ -1,0 +1,14 @@
+Note: to run php files in terminal use command: php filename.php
+
+1. Create connection to SQL through server and create a database:
+-See createDB.php
+
+2. Create your tables
+-see CreateUserTable.php
+
+Note: 
+-For user separation in PHP, the user id has to be passed from page to page,
+for some reason the PHP register functionality that I've come acress
+will not allow the id to pass from the register handler into the site. It will 
+take the user name but not the id. It forces the user to register, then login.
+PHP8 Solutions had no remedy for this. Nor PHP Beginners Guide.

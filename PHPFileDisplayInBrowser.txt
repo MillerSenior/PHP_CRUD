@@ -1,0 +1,6 @@
+To display php files: 
+-In url: http://www.srv.php 
+-Go to: http://www.srv.php/filename.php
+-Or go to: http://www.srv.php/foldername/filename.php
+-Make sure all files are in the Home Directory/public_html folder
+(all files must be called from browser using filepaths that originate in your public_html (PHP) environment folder)
